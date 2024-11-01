@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+
 
 const Footer: React.FC = () => {
   return (
@@ -48,16 +49,16 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a href="#" aria-label="Facebook" className="text-gray-400 hover:text-white">
-                <FaFacebook size={24} />
+                <Facebook size={24} />
               </a>
               <a href="#" aria-label="Twitter" className="text-gray-400 hover:text-white">
-                <FaTwitter size={24} />
+                <Twitter size={24} />
               </a>
               <a href="#" aria-label="Instagram" className="text-gray-400 hover:text-white">
-                <FaInstagram size={24} />
+                <Instagram size={24} />
               </a>
               <a href="#" aria-label="LinkedIn" className="text-gray-400 hover:text-white">
-                <FaLinkedin size={24} />
+                <Linkedin size={24} />
               </a>
             </div>
           </div>

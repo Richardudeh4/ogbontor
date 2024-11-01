@@ -7,7 +7,12 @@ const Hero = () => {
   return (
     <div className="py-6 flex  w-full  flex-col">
         <div className='flex flex-row justify-between '>
-        <h1 className='text-6xl 2xl:text-8xl font-bold flex items-center justify-center'>Welcome to the future <br/>of CNG vehicles</h1>
+          <div className='flex flex-col items-center  justify-center space-y-16 py-12'>
+            <h1  className='text-4xl md:text-8xl 2xl:text-8xl -pt-10 font-bold flex items-center justify-center'>CNG Protect</h1>
+          <h1 className='text-6xl 2xl:text-8xl font-bold flex items-center justify-center'>Welcome to the future <br/>of CNG vehicles</h1>
+          
+          </div>
+      
         <div className='flex justify-end'>
           <Image src={car} width={500} height={250} alt="cars" className="rounded-2xl"/>
         </div>
