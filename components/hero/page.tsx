@@ -8,8 +8,8 @@ const Hero = () => {
     <div className="py-6 flex  w-full  flex-col">
         <div className='flex flex-row justify-between '>
           <div className='flex flex-col items-center  justify-center space-y-16 py-12'>
-            <h1  className='text-4xl md:text-8xl 2xl:text-8xl -pt-10 font-bold flex items-center justify-center'>CNG Protect</h1>
-          <h1 className='text-6xl 2xl:text-8xl font-bold flex items-center justify-center'>Welcome to the future <br/>of CNG vehicles</h1>
+            <h1  className='text-4xl md:text-6xl 2xl:text-8xl -pt-10 font-bold flex '>CNG Protect</h1>
+          <h1 className='text-4xl 2xl:text-6xl font-bold flex items-center justify-center'>Welcome to the future <br/>of CNG vehicles</h1>
           
           </div>
       
