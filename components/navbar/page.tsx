@@ -12,12 +12,12 @@ const Navbar = () => {
             <Image src={logo} width={36} height={36} alt=""/>
             <div className='flex space-x-3 flex-row'>
                 <Button variant="outline" size="lg" asChild>
-                        <Link href="/sign-in">
+                        <Link href="/">
                         Log in
                         </Link> 
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                    <Link href="/sign-up">
+                    <Link href="/">
                     Sign up 
                     </Link>
               
