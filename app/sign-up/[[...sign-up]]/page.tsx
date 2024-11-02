@@ -8,7 +8,7 @@ export default function Page() {
       <SignUp/>
       </div>
   <div>
-    <SignupForm/>
+    {/* <SignupForm/> */}
   </div>
     </div>
 
